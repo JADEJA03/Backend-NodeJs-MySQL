@@ -6,8 +6,8 @@ person1 varchar(45),
 person2 varchar(45),
 person1_isof_person2 varchar(45),
 PRIMARY KEY(id)
-)ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT 
-CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    )ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT 
+    CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO familytree(id,person1,person2,person1_isof_person2)
 VALUES(1,'Ram','Sita','Husband'),
